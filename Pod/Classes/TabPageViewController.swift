@@ -113,7 +113,7 @@ extension TabPageViewController {
         let scrollView = view.subviews.flatMap { $0 as? UIScrollView }.first
         scrollView?.scrollsToTop = false
         scrollView?.delegate = self
-        scrollView?.backgroundColor = option.pageBackgoundColor
+        //scrollView?.backgroundColor = option.pageBackgoundColor
     }
 
     /**
@@ -123,7 +123,7 @@ extension TabPageViewController {
     private func updateNavigationBar() {
         if let navigationBar = navigationController?.navigationBar {
             navigationBar.shadowImage = UIImage()
-            navigationBar.setBackgroundImage(option.tabBackgroundImage, forBarMetrics: .Default)
+            //navigationBar.setBackgroundImage(option.tabBackgroundImage, forBarMetrics: .Default)
         }
     }
 

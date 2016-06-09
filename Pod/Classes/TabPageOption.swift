@@ -20,6 +20,10 @@ public struct TabPageOption {
     public var tabMargin: CGFloat = 20.0
     public var tabWidth: CGFloat?
     public var tabBackgroundColor: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    //public var pageBackgoundColor: UIColor = UIColor.whiteColor()
+    // internal var tabBackgroundImage: UIImage {
+    //    return convertImage()
+    //}
 
     private func convertImage() -> UIImage {
         let rect : CGRect = CGRectMake(0, 0, 1, 1)
