@@ -39,7 +39,7 @@ public class TabPageViewController: UIPageViewController {
 
         setupPageViewController()
         setupScrollView()
-        updateNavigationBar()
+        //updateNavigationBar()
     }
 
     override public func viewWillAppear(animated: Bool) {
